@@ -1,0 +1,582 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6)) ,url("pic.jpg");
+    height: 500px;
+    background-size: cover;
+    text-align: center;
+}
+.logo{
+    color: white;
+    font-family: 'Yesteryear', cursive;
+    font-size: 40px;
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+.nav-menu{
+    list-style: none;
+    color:white;
+}
+.nav-menu li{
+    display:inline-block;
+    font-size:18px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.nav-menu li a{
+    text-decoration: none;
+    color:white;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.nav-menu li a:hover{
+    color: #F2AC32;
+}
+.header-title-1{
+    font-family: 'Rochester', cursive;
+       color:yellow;
+       font-size: 40px;
+       margin-top: 100px;
+       margin-bottom: 15px;
+}
+.header-title-2{
+    font-family: 'Oswald', sans-serif;
+    color:white;
+    font-size: 50px;
+    letter-spacing: 6px;
+    margin-bottom: 25px;
+}
+.header-cta-button{
+    text-decoration: none;
+    color: white;
+    background-color: #F2AC32;
+    padding: 10px 30px;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+    
+}
+.header-cta-button:hover{
+    background-color: rgb(83, 83, 9);
+}
+.my-bag{
+    font-size: 25px;
+}
+.search{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/********* discover section *********/
+.discover-section{
+    background-color:#f0f0f0;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.food-border{
+    border:2px solid #F2AC32;
+    position: relative;
+}
+.food-overly{
+    padding:100px 10px 0 10px;
+    position:absolute;
+    right:20px;
+    top:20px;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: -14px 18px 9px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: -14px 18px 9px -5px rgba(0,0,0,0.75);
+box-shadow: -14px 18px 9px -5px rgba(0,0,0,0.75);
+
+}
+.food-item{
+    height: 400px;
+    width: 240px;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    text-align: center;
+    
+    
+}
+.food-item p{
+    color:rgb(99, 99,99);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.food-item a{
+    text-decoration: none;
+    color:#F2AC32;
+    
+}
+.food-1{
+    background-image: url("burger.jpg");
+    background-size:cover;
+    background-position: center;
+    margin-top: -30px;
+    -webkit-box-shadow: -14px 18px 9px -5px rgba(0,0,0,0.75);
+     -moz-box-shadow: -14px 18px 9px -5px rgba(0,0,0,0.75);
+     box-shadow: -14px 18px 9px -5px rgba(0,0,0,0.75);
+}
+.food-2{
+    background-image: url("egg.jpg");
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: -14px 18px 9px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: -14px 18px 9px -5px rgba(0,0,0,0.75);
+box-shadow: -14px 18px 9px -5px rgba(0,0,0,0.75);
+}
+.discover-1{
+    font-family: 'Rochester', cursive;
+    color: #F2AC32;
+    margin-bottom: 15px;
+}
+.discover-2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    
+}
+/********* end discover section *********/
+/*****start specialties section******/
+.specialties-section{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)) ,url("plates.jpg");
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.spec-h1{
+    font-family: 'Rochester', cursive;
+    color: #F2AC32;
+    margin-bottom: 15px;
+    font-size: 35px;
+    
+}
+.spec-h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 100px;
+    color: #fff;
+}
+.specialties-middle{
+    text-align: center;
+    position: relative;
+}
+.specialties-row{
+    display: flex;
+    justify-content: center;
+}
+.specialties-image-1,
+.specialties-image-2,
+.specialties-image-3{
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+.specialties-col{
+    width: 300px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.specialties-image-1{
+    background-image: url("shwarma.jpg");
+    background-size: cover;
+}
+.specialties-image-2{
+    background-image: url("veg.jpg");
+    background-size: cover;
+}
+.specialties-image-3{
+    background-image: url("burger.jpg");
+    background-size: cover;
+}
+.specialties-image-1:hover .specialties-overly,
+.specialties-image-2:hover .specialties-overly,
+.specialties-image-3:hover .specialties-overly
+{
+    opacity: 1;
+}
+.specialties-h3{
+    padding-top: 50px;
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2.5px;
+    margin-bottom: 80px;
+}
+
+.specialties-overly{
+    opacity: 0;
+    position: absolute;
+    background-color: rgba(240, 203, 38, 0.4);
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    transition: all 0.4s ease-in-out;
+}
+.overlyborder{
+    border: 2px solid white;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family:'Oswald', sans-serif ;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: white;
+}
+.specialties-middle:before{
+        content: '';
+        position: absolute;
+        border-top: 100px solid #f0f0f0;
+        border-right: 100vw solid transparent;
+        top: -100px;
+        left:0;
+}
+.specialties-middle:after{
+    content: '';
+    position: absolute;
+    border-bottom: 100px solid #f0f0f0;
+    border-left: 100vw solid transparent;
+    bottom: -100px;
+    right:0;
+}
+/******ens specialties***/
+/****start special menu**/
+.menu-container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap:wrap;
+    
+}
+.special-menu{
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+}
+.menu-h1{
+    font-family: 'Rochester', cursive;
+    color: #F2AC32;
+    margin-bottom: 15px;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.menu-h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: black;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+.menu-col{
+    width:50% ;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+}
+.col-large{
+    width: 50%;
+    
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+.col-large-1,
+.col-large-3{
+    background-color: #F2AC32;
+    color: #fff;
+    justify-content: center;
+}
+.fa-ice-cream,
+.fa-utensile
+{
+    width: 100%;
+    font-size: 50px;
+   margin-bottom: 10px;
+}
+.menu-h3{
+    font-family: 'Rochester', cursive;
+    width: 100%;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.menu-h4{
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+.separater,
+.separator-orange{
+    display: inline-block;
+    width: 40px;
+    border-bottom: 2px solid #fff;
+    margin:15px auto;
+}
+.menu-paragraph{
+    font-family: 'Oswald', sans-serif;
+        width: 100%;
+        padding: 30px 20px;
+        font-size: 14px;
+}
+.col-large-2{
+    background-image: url("icecream.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.col-large-4{
+    background-image: url("kbab.jpg");
+    background-size: cover;
+}
+.col-small{
+    width:50%;
+    height: 225px;
+    display: flex;
+    justify-content: flex-start;
+     flex-wrap: wrap;
+     align-content: center;
+}
+.small-col1,
+.small-col4
+{
+    background-color: #fff;
+}
+
+.small-col2{
+    background-image: url("burger.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.small-col3{
+    background-image: url("pizza.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.small-h3{
+    width: 100%;
+    font-family: 'Rochester', cursive;
+    font-size: 27px;
+    letter-spacing: 2px;
+    color: #F2AC32;
+}
+.small-h4{
+    width: 100%;
+    color: black;
+    letter-spacing: 3px;
+    font-family: 'Oswald', sans-serif;
+}
+.small-h5{
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    color: #F2AC32;
+    margin-top: 5px;
+    font-size: 15px;
+}
+.fa-hamburger{
+    color: #F2AC32;
+    font-size: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.separator-orange{
+    border-bottom: 2px solid #F2AC32;
+}
+/*********end menu-special section********/
+/******start my menu***/
+.my-menu-section{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6)) ,url("lemon.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 100px;
+}
+.my-h2{
+    width: 100%;
+    font-family: 'Rochester', cursive;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #F2AC32;
+}
+.my-h1{
+    width: 100%;
+    color:#f0f0f0;
+    letter-spacing: 3px;
+    font-family: 'Oswald', sans-serif;
+}
+.my-menu-row{
+    display: flex;
+    justify-content: center;
+   margin: 20px; 
+}
+.food-container{
+    color: #f0f0f0;
+    margin-bottom: 25px;
+}
+.my-col{
+    width: 335px;
+    margin: 35px;
+    text-align: center;
+}
+.food-titile{
+    display: inline-block;
+    font-size: 18px;
+    
+    
+    
+}
+.food-prize{
+    font-family: 'Rochester', cursive;
+    color: #F2AC32;
+    font-size: 20px;
+}
+.food-ingret{
+    font-weight: 400;
+    font-size: 14px;
+ }
+ .my-button{
+     border: 1px solid white;
+     text-decoration: none;
+     color: white;
+     font-family: 'Oswald', sans-serif;
+     font-size: 15px;
+     letter-spacing: 2px;
+     padding: 10px 20px;
+     margin-bottom: 150px;
+     
+ }
+ /******end my menu***/
+
+
+ /*****final-section*****/
+ .booking-table-section{
+     padding: 100px;
+     text-align: center;
+     background-color: #f0f0f0;
+ }
+ .book-h1{
+    font-family: 'Rochester', cursive;
+    color: #F2AC32;
+    font-size: 30px;
+ }
+ .book-h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+ }
+ .booking-table-row{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     padding: 50px;
+     
+ }
+ .booking-div{ 
+    font-family: 'Oswald', sans-serif;
+     background-color: white;
+     margin: 30px 15px;
+     
+     
+ }
+ .booking-icon{
+     padding:15px 20px;
+     display: inline-block;
+     border-right: 1px solid #f0f0f0;
+ }
+ .booking-data{
+     padding-left: 20px;
+     padding-right: 20px;
+   
+ }
+ .booking-cta{
+     text-decoration: none;
+     color: white;
+     padding: 20px 50px;
+     background-color: #F2AC32;
+     font-family: 'Oswald', sans-serif;
+     transition: all 0.3s ease-in-out;
+ }
+ .booking-cta:hover{
+    background-color: rgb(83, 83, 9);
+
+
+
+    /******start footer section***/
+ }
+ footer{
+     padding:60px 0;
+     padding-bottom: 0;
+     background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6)) ,url("footer.jpg");
+     background-size: cover;
+     background-position:center ;
+     color: white;
+ }
+ .footer-row{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+ }
+ .footer-col{
+     margin: 20px 60px;
+ }
+ .tile-h3{
+    
+    font-family: 'Oswald', sans-serif;
+    color: #F2AC32;
+    padding-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+ }
+ .footer-text{
+     color: #f0f0f0;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+ }
+ .footer-input{
+     padding: 10px 20px;
+     width: 230px;
+     height: 45px;
+ }
+ .footer-button{
+     display: inline-block;
+     text-decoration: none;
+     font-family: 'Oswald', sans-serif;
+     color: white;
+     width: 230px;
+     background-color: #F2AC32;
+     height: 45px;
+     text-align: center;
+     margin-top: 15px;
+     line-height: 45px;
+ }
+ .copy-right{
+     padding: 45px;
+     color: #f0f0f0;
+     font-family: 'Oswald', sans-serif;
+     font-size: 14px;
+     border-top: 1px solid rgba(250, 233, 233, 0.575);
+     text-align: center;
+     letter-spacing: 1px;
+     font-weight: 400;
+}
+.copy-right-name{
+    color: #F2AC32;
+}
